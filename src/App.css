@@ -1,0 +1,66 @@
+.idCard,
+.greetings,
+.random,
+.boxColor {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+  
+.idCard-img {
+    margin-right: 20px;
+}
+  
+.idCard-img img {
+    width: 100%;
+    height: 100%;
+}
+  
+.idCard-info p {
+    margin: 5px 0;
+}
+  
+.idCard-info b {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.creditCard {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 20px;
+}
+  
+.creditCard-type {
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+  
+.creditCard-num {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+  
+.creditCard-info {
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.extra-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.extra-info p {
+    margin-right: 10%;
+}
